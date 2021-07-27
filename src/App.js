@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import ReactHook from './R_ReactHook';
+//import RunctionComponent from './R_FunctionComponent';
+//import PureComponentClass from './R_PureComponentClass';
+//import ComponentClass from './R_ComponentClass';
+//import ReactState from './R_ReactState';
+//import SetState from './R_SetState';
+//import ForceUpdate from './R_ForceUpdate';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+      <h1>Start React 200!</h1>
+      <p>CSS 적용하기</p>
+      <ReactHook/>
     </div>
   );
 }
